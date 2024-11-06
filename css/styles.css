@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+main {
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1 {
+    text-align:center;
+    padding: 2em 0 0 0;
+}
+h5 {
+    text-align:center;
+    padding: .5em 0;
+}
+#loading {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+#summary{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+#dropdown-menu {
+    margin: 0 auto;
+    padding: 1em 0 .1em 0;
+}
+.countries{
+    margin: 1em; 
+}
+#plot {
+    width: 60%;
+    margin: 0 auto;   
+}
